@@ -1,3 +1,4 @@
+
 from api_handler import ApiHandler
 from urls import donald, chuck
 
@@ -13,6 +14,7 @@ while True:
         print(donald_quote.getQuote())
     else:
         print("please choose 1 or 2")
+
 
 
 
